@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
             polylineOpt.add(LatLng(25.033611, 121.565000))
             polylineOpt.add(LatLng(25.032728, 121.564137))
             polylineOpt.add(LatLng(25.047924, 121.517081))
-            polylineOpt.color(Color.BLUE)
+            polylineOpt.color(Color.MAGENTA)
             val polyline = map.addPolyline(polylineOpt)
             polyline.width = 10f
 
