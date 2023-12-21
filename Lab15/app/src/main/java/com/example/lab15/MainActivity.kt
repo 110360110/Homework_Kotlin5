@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         dbrw.close()
         super.onDestroy()
     }
-    //設定監聽器
+    
     private fun setListener() {
         val ed_book = findViewById<EditText>(R.id.ed_book)
         val ed_price = findViewById<EditText>(R.id.ed_price)
